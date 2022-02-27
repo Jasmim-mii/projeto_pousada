@@ -142,19 +142,6 @@ ul#navegacao a:hover {
 .bloco-lateral:hover{
     background: #fafae5;
 }
-.area-principal {
-    background: url(../img/bg-linha.gif) top left repeat-x;
-    float: left;
-    width: 50%;
-    padding: 10px 0px;
-}
-.area-lateral {
-    background: url(../img/bg-linha.gif) top left repeat-x;
-    float: right;
-    width: 50%;
-    padding: 20px 0px;
-    max-width: 90%;
-}
 .conteudo-imagem {
     float: left;  
     width: 50%;
@@ -164,15 +151,15 @@ ul#navegacao a:hover {
 .conteudo-texto {
     float: right;
     margin: 0; 
-    width: 40%;
+    width: 50%;
     padding: 10px;
 }
-.imagem-invertida {
+.imagem-lateral {
     float: right;  
     width: 50%;
     margin: 0px;
 }
-.texto-invertido {
+.texto-lateral {
     float: left;
     margin: 0px; 
     width: 40%;
@@ -198,6 +185,7 @@ ul#navegacao a:hover {
 .texto {
     text-align: center;
     padding: 10px;
+    margin: 3px;
 }
 h2 {
     font-size: 1.1em;
@@ -206,7 +194,7 @@ h2 {
 }
 h1 {
     text-align: center;
-    color: #494522;
+    color: #8b8448;
 }
 p {
     font-size: 1.0em;
